@@ -1,0 +1,189 @@
+body{
+  background-color: brown;
+  }
+#head{
+  position: relative;
+  height: 100px;
+  width: 100px;
+  left: 1300px;
+}
+
+#nav_header{
+  background-color: orange;
+  height: 100px;
+  width: 1650px;
+  position:relative;
+  top: 100px;
+}
+
+@keyframes happyWookie {
+  from{top: -100px;}
+  to{ top: -230px}
+}
+@keyframes happyWookie1{
+  from{top: -100px;}
+  to{ top: -200px}
+}
+#smileWookie1{
+  position: relative;
+  height: 150px;
+  width: 200px;
+  z-index: -1;
+  top: -80px;
+  animation-name: happyWookie1;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
+}
+#smileWookie{
+  position: relative;
+  height: 150px;
+  width: 200px;
+  z-index: -1;
+  top: -100px;
+  animation-name: happyWookie;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+.line{
+  background-color: orange;
+  width: 20px;
+  margin: 20px;
+  height: 100px;
+  top: -20px;
+  position: relative;
+  left:1675px;
+  float:left;
+}
+h1{
+  color:brown;
+  font-family: 'Sansita One';
+  position: relative;
+  text-align: center;
+  top:30px;
+}
+#topHr{
+  position:relative;
+  top:-20px;
+  width:100%;
+  border: 0px;
+  border-top: 2px solid orange;
+}
+#tag_line{
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  top: -10px;
+  left: -80px;
+  color:white;
+}
+#wookieStyle{
+  font-family: 'Sansita One';
+  color: orange;
+  font-weight: bold;
+  font-size: 30px;
+}
+#myCookies{
+  position: relative;
+  top: 200px;
+  left: 150px;
+}
+#lemonContainer{
+  position: relative;
+  top: 20px;
+  left: 200px;
+  background-color: beige;
+  width: 200px;
+  height: 300px;
+  border: 10px solid orange;
+  border-style:double;
+}
+#descriptionLemon{
+  position:relative;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+}
+#lemonBtn{
+  position:relative;
+  left:70px;
+  top: 200px;
+  border: 3px solid orange;
+  border-radius: 10px;
+}
+#lemon_count{
+  position:relative;
+  left:90px;
+  top:50px;
+  background-color: beige;
+  width:20px;
+  text-align: center;
+}
+#sugarContainer{
+  position: relative;
+  left: 600px;
+  top: -300px;
+  background-color: beige;
+  width: 200px;
+  height: 300px;
+  border: 10px solid orange;
+  border-style:double;
+}
+#descriptionSugar{
+  position:relative;
+  text-align: center;
+  padding:5px;
+  left: 3px;
+  top:-10px;
+}
+#sugarBtn{
+  position: relative;
+  left: 70px;
+  top:200px;
+  border: 3px solid orange;
+  border-radius: 10px;
+}
+#sugar_count{
+  position:relative;
+  left:80px;
+  top:70px;
+  background-color: beige;
+  width:20px;
+  text-align: center;
+}
+#chocoContainer{
+  position: relative;
+  left: 1000px;
+  top: -620px;
+  background-color: beige;
+  width: 200px;
+  height: 300px;
+  border: 10px solid orange;
+  border-style:double;
+}
+#chocolateBtn{
+  position: relative;
+  left: 60px;
+  top:200px;
+  border: 3px solid orange;
+  border-radius: 10px;
+}
+#descriptionChoco{
+  position:relative;
+  left: 20px;
+  top:-10px;
+}
+#choco_count{
+  position:relative;
+  left:80px;
+  top:70px;
+  background-color: beige;
+  width:20px;
+  text-align: center;
+}
+#delete{
+  position:relative;
+  left:800px;
+  top: -400px;
+  border: 3px solid orange;
+  border-radius: 10px;
+}
