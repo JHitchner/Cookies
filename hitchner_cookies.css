@@ -17,19 +17,19 @@ body{
 }
 
 @keyframes happyWookie {
-  from{top: -100px;}
-  to{ top: -230px}
+  from{top: -120px;}
+  to{ top: -250px}
 }
 @keyframes happyWookie1{
   from{top: -100px;}
-  to{ top: -200px}
+  to{ top: -250px}
 }
 #smileWookie1{
   position: relative;
   height: 150px;
   width: 200px;
   z-index: -1;
-  top: -80px;
+  top: -100px;
   animation-name: happyWookie1;
   animation-duration: 8s;
   animation-fill-mode: forwards;
@@ -39,7 +39,7 @@ body{
   height: 150px;
   width: 200px;
   z-index: -1;
-  top: -100px;
+  top: -120px;
   animation-name: happyWookie;
   animation-duration: 4s;
   animation-fill-mode: forwards;

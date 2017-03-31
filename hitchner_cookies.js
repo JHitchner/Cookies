@@ -13,14 +13,17 @@ var chocoClick = 0;
 lemonBtn.addEventListener("click",function(){
   lemonClick++;
   Cookies.set("lemon",lemonClick);
+  lemonCount.innerHTML = lemonClick;
 });
 sugarBtn.addEventListener("click",function(){
   sugarClick++;
   Cookies.set("sugar",sugarClick);
+  sugarCount.innerHTML = sugarClick;
 });
 chocolateBtn.addEventListener("click",function(){
   chocoClick++;
   Cookies.set("choco",chocoClick);
+  chocoCount.innerHTML = chocoClick;
 });
 deleteBtn.addEventListener("click", function(){
   Cookies.set("lemon",0);
